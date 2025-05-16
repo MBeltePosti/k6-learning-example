@@ -1,4 +1,10 @@
 {
+  "name": "k6-learning-project",
+  "version": "1.0.0",
+  "description": "In this porject, I am practicing k6 while following udemy course",
+  "scripts": {
+    "test": "k6 run scenarios/first-practice.js --summary-mode=full"
+  },
   "devDependencies": {
     "@eslint/js": "^9.25.1",
     "eslint": "^9.25.1",
